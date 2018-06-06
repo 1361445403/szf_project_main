@@ -6,15 +6,21 @@ td{
 }
 .btn_grey {
 	font-family: "宋体";	font-size: 9pt;color: #333333;
-	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	background-color: #eeeeee;cursor: hand;padding:1px;height:25px;
 	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
 	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
 }
 .btn_bg {
-	background-image:url(../images/button.jpg); border:#436E9B thin 0px;
+	background-image:url(../images/button.jpg); border:#436E9B thin 1px;
 	width:56px;
-	height:20px;padding:4px;
+	height:50px;padding:20px;
 	color:#FFFFFF;
+}
+.btn_lg {
+	font-family: "黑体";	font-size: 10pt;color: #333333;
+	background-color: #eeeeee;cursor: hand;padding:5px;height:35px;
+	border-top: 5px solid #FFFFFF;border-right:5px solid #666666;
+	border-bottom: 5px solid #666666;border-left: 5px solid #FFFFFF;
 }
 
 input {
@@ -28,8 +34,8 @@ input.login {
 	font-size: 9pt;
 	color: #333333;
 	border: 1px solid #6f9c61;
-	width:150px;
-    height:22px;
+	width:200px;
+    height:32px;
 }
 .wenbenkuang {
 	font-family: "宋体";
@@ -37,7 +43,15 @@ input.login {
 	color: #333333;
 	border: 1px solid #444444;
 }
-
+.word_dark{
+	font-family: "宋体";
+	font-size: 15pt;
+}
+.word_gl{
+	font-family: "宋体";
+	font-size: 30pt;
+	color: #990033;
+}
 
 .noborder{
 border-style:none;
